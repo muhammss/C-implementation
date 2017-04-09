@@ -6,7 +6,7 @@ int main()
 {
 char greeting[6]={'H', 'e', 'l', 'l', 'o','\0'};
 
-cout << "Greeting message :";
+cout << "Greeeting message :";
 cout << greeting << endl;
 return 0;
 }
