@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstring>
+#include<string>
 using namespace std;
 
 int main()
@@ -8,6 +9,7 @@ char str1[10]="Hello";
 char str2[10]="World";
 char str3[10];
 int len;
+int leng
 //copy string 1 into string 3
 
 strcpy(str3,str1);
@@ -19,5 +21,7 @@ cout<<"strcat(str1, str2):" <<str1 <<endl;
 
 len=strlen(str1);
 cout<<"strlen(str1):"<<len<<endl;
+leng=str1.size();
+cout<<leng<<endl;
 return 0;
 }
